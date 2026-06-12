@@ -1,0 +1,25 @@
+{
+  "name": "resto-miniapp-v7-3-real-data-test",
+  "version": "0.2.3",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "setup:telegram-menu": "node scripts/setup-telegram-menu.js",
+    "send:open-button": "node scripts/send-open-button.js",
+    "check:structure": "node scripts/check-structure.js"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
